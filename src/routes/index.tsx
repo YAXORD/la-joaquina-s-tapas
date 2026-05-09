@@ -95,10 +95,10 @@ function Hero() {
               Ver la carta
             </a>
             <a
-              href="#visita"
+              href="tel:+34689707543"
               className="rounded-full border border-border px-8 py-3.5 text-sm hover:bg-card transition"
             >
-              Reservar mesa
+              Reservar: 689 70 75 43
             </a>
           </div>
 
