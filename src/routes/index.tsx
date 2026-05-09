@@ -347,7 +347,7 @@ function Visit() {
             </div>
           </dl>
           <a
-            href="https://www.google.com/maps/search/?api=1&query=La+Joaquina+Calle+Joaquina+Eguaras+11+Granada"
+            href="https://www.google.com/maps/dir/?api=1&destination=La+Joaquina+Calle+Joaquina+Eguaras+11+18013+Granada"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-10 inline-flex rounded-full bg-primary text-primary-foreground px-8 py-3.5 text-sm font-medium hover:opacity-90 transition shadow-[var(--shadow-warm)]"
