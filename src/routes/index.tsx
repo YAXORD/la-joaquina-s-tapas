@@ -53,7 +53,9 @@ function Header() {
           <a href="#visita" className="hover:text-foreground transition">Visítanos</a>
         </nav>
         <a
-          href="#visita"
+          href="https://www.google.com/maps/dir/?api=1&destination=La+Joaquina+Calle+Joaquina+Eguaras+11+18013+Granada&destination_place_id=ChIJ"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-full border border-primary/40 bg-primary/10 px-5 py-2 text-sm text-primary hover:bg-primary hover:text-primary-foreground transition"
         >
           Cómo llegar
