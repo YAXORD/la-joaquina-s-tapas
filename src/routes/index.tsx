@@ -3,6 +3,7 @@ import heroBar from "@/assets/hero-bar.jpg";
 import tapasImg from "@/assets/tapas.jpg";
 import carnesImg from "@/assets/carnes.jpg";
 import calamaresImg from "@/assets/calamares.jpg";
+import menuImg from "@/assets/menu.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -220,6 +221,40 @@ function Specialties() {
               </div>
             </article>
           ))}
+        </div>
+
+        <div className="mt-24 grid md:grid-cols-5 gap-10 items-center">
+          <div className="md:col-span-2">
+            <p className="text-primary text-xs uppercase tracking-[0.3em] mb-4">La carta completa</p>
+            <h3 className="font-display text-3xl md:text-4xl mb-4">
+              Tapas, bocadillos y menú del día por <span className="text-primary">13 €</span>.
+            </h3>
+            <p className="text-muted-foreground leading-relaxed">
+              Tapas plato, tapas pescado, tapas del día y una larga lista de
+              bocadillos para todos los gustos. Tapas extras a 2 €.
+            </p>
+            <p className="mt-6 text-sm text-muted-foreground">
+              Reservas: <a href="tel:+34689701543" className="text-primary hover:underline">689 70 15 43</a>
+            </p>
+          </div>
+          <div className="md:col-span-3">
+            <a
+              href={menuImg}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block rounded-2xl overflow-hidden border border-border shadow-[var(--shadow-soft)] hover:border-primary/50 transition"
+            >
+              <img
+                src={menuImg}
+                alt="Carta de La Joaquina con tapas, bocadillos y menú del día"
+                loading="lazy"
+                className="w-full h-auto"
+              />
+            </a>
+            <p className="text-xs text-muted-foreground mt-3 text-center">
+              Toca la imagen para ampliar
+            </p>
+          </div>
         </div>
       </div>
     </section>
