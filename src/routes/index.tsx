@@ -3,6 +3,7 @@ import heroBar from "@/assets/hero-bar.jpg";
 import tapasImg from "@/assets/tapas.jpg";
 import carnesImg from "@/assets/carnes.jpg";
 import calamaresImg from "@/assets/calamares.jpg";
+import menuImg from "@/assets/menu.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
