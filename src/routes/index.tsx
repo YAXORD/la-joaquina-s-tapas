@@ -234,7 +234,7 @@ function Specialties() {
               bocadillos para todos los gustos. Tapas extras a 2 €.
             </p>
             <p className="mt-6 text-sm text-muted-foreground">
-              Reservas: <a href="tel:+34689701543" className="text-primary hover:underline">689 70 15 43</a>
+              Reservas: <a href="tel:+34689707543" className="text-primary hover:underline">689 70 75 43</a>
             </p>
           </div>
           <div className="md:col-span-3">
