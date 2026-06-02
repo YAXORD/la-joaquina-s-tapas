@@ -26,3 +26,10 @@ cd la-joaquina-s-tapas
 npm install
 npm run dev
 ````
+## 🗺️ Roadmap & Next Steps
+
+The current frontend ecosystem provides a solid foundation. Future development phases include:
+
+*   Migrating the backend architecture to a custom RESTful API utilizing robust enterprise technologies like **Java (Spring Boot)** or **PHP (Laravel)**.
+*   Refactoring the user interface to implement a custom dark mode with metallic accents to elevate the brand's premium presentation.
+*   Integrating complex inventory logic and advanced point-of-sale features.
